@@ -1,0 +1,27 @@
+On ubuntu :
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-	$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+#Application@1
+
+docker-compose.yml
+=============
+---
+version: "3"
+services: 
+  sample1: 
+    image: httpd
+    ports: 
+      - "80:80"
+  sample2: 
+    image: nginx
+    ports: 
+      - "82:80"
+
+
+>docker-compose up –d
+>docker images
+>docker ps
+>Check in the Browser
