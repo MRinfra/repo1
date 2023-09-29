@@ -1,0 +1,8 @@
+                                LINUX
+EC2 > launch linux environment
+launch instances > Ubuntu( whatever) > keypair> region info in KP> .pem
+dwnld and install git bash > click on git scm > dwnld 64 bit> install
+#kp click on git bash>  enter kp copy command
+
+
+go to git hub acnt> create rpository > getting repo from git hub to local machine by git clone 
